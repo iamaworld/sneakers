@@ -1,0 +1,275 @@
+@font-face {
+	font-family: 'Anonymous Pro';
+	src: url(fonts/AnonymousPro-Bold.ttf);
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: 'Anonymous Pro';
+	src: url(fonts/AnonymousPro-Regular.ttf);
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	margin: 0;
+
+	width: 100%;
+	height: 100vh;
+}
+
+h1 {
+	font-family: 'Anonymous Pro', sans-serif;
+	font-size: 56px;
+}
+
+h2 {
+	font-family: 'Anonymous Pro', sans-serif;
+	font-size: 48px;
+}
+
+header {
+	height: 110px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	flex-shrink: 0;
+	max-width: 1160px;
+	width: 1160px;
+	justify-content: space-between;
+}
+
+.head-links {
+	color: #000;
+	display: flex;
+	gap: 24px;
+}
+
+.head-line {
+	background: var(--text_gray, #a1a6b4);
+	border: none;
+	height: 1px;
+	width: 100%;
+	margin: 0;
+}
+
+.tg {
+	color: #000;
+	font-family: 'Anonymous Pro';
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.vk {
+	color: #000;
+	font-family: 'Anonymous Pro';
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.yt {
+	color: #000;
+	font-family: 'Anonymous Pro';
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.subtitle {
+	display: flex;
+	width: 767px;
+	justify-content: flex-start;
+	align-items: flex-start;
+	height: 60px;
+	margin: 0;
+
+	color: var(--black, #121723);
+	font-family: Anonymous Pro;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 100%;
+}
+
+.card {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	height: auto;
+	gap: 25px;
+}
+
+.sneakers {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 24px;
+}
+
+.body {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 24px;
+	width: 1160px;
+}
+
+.collection {
+	background-color: #f1f1f1;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.sneaker {
+	background-color: white;
+	width: 371px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	border-radius: 12px;
+}
+
+.container__image {
+	border-radius: 12px 12px 0px 0px;
+	background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+h3 {
+	color: var(--black, #121723);
+	font-family: Anonymous Pro;
+	font-size: 26px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	display: flex;
+	width: 320px;
+	align-items: center;
+	padding: 16px 24px;
+	margin: 0;
+}
+
+p {
+	color: var(--black, #121723);
+	font-family: Anonymous Pro;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	display: flex;
+	width: 320px;
+	align-items: center;
+	padding: 12px 24px;
+	margin: 0 0 16px 0;
+}
+
+img {
+	width: 370px;
+	height: 250px;
+	object-fit: cover;
+}
+
+footer {
+	width: 100%;
+	background: var(--black, #121723);
+	height: 142px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.footer {
+	background: var(--black, #121723);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 80px;
+	flex-direction: row;
+	max-width: 1160px;
+	width: 1160px;
+}
+
+.UGG {
+	border-radius: 12px 12px 0px 0px;
+	background: url(<path-to-image>), lightgray 1.72px -182.271px / 100% 194.751% no-repeat;
+}
+
+.foot-links {
+	color: var(--white, #fff);
+	font-family: Anonymous Pro;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	display: flex;
+	gap: 24px;
+}
+
+.line {
+	height: 1px;
+
+	width: 1160px;
+	color: rgba(230, 232, 236, 0.4);
+	background-color: rgba(230, 232, 236, 0.4);
+	border: none;
+}
+
+.copy {
+	color: var(--text_gray, #a1a6b4);
+	font-family: Anonymous Pro;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: var(--black, #121723);
+	height: 21px;
+	width: 100%;
+}
+
+.tg1 {
+	color: var(--white, #fff);
+	font-family: 'Anonymous Pro';
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.vk1 {
+	color: var(--white, #fff);
+	font-family: 'Anonymous Pro';
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.yt1 {
+	color: var(--white, #fff);
+	font-family: 'Anonymous Pro';
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
